@@ -1,45 +1,23 @@
-let tab_id = 0;
-$('a[data-toggle="tab"]').on('click', function () {
-  if($(this).closest('li').hasClass('tabs')){
-    tab_id = $("ul.tabs-list li.active").index();
-    console.log(tab_id);
-  }
-tabs
-  
-  // switch ($("ul.tabs-list li.active").index()) {
-  //   case 0:
-  //     console.log('tab1');
-  //     break;
-  //   case 1:
-  //     console.log('tab2');
-  //     break;
-  //   case 2:
-  //     console.log('tab3');
-  //     break;
-  // }
-});
-
-
-var map = L
+var map1 = L
   .map('map1')
   .setView([25.0531, 121.555252], 11).addLayer(
     new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
   )
   
 // Add a svg layer to the map
-L.svg().addTo(map);
+L.svg().addTo(map1);
 
 
 d3.csv("data/spot_info.csv", function(error, data) {
     
-  svg = d3.select("#map1").select("svg")
+  svg_map1 = d3.select("#map1").select("svg")
   // Select the svg area and add circles:
-  svg.selectAll("myCircles")
+  svg_map1.selectAll("myCircles")
     .data(data)
     .enter()
     .append("circle")
-      .attr("cx", function(d){ return map.latLngToLayerPoint([d.lat, d.lng]).x })
-      .attr("cy", function(d){ return map.latLngToLayerPoint([d.lat, d.lng]).y })
+      .attr("cx", function(d){ return map1.latLngToLayerPoint([d.lat, d.lng]).x })
+      .attr("cy", function(d){ return map1.latLngToLayerPoint([d.lat, d.lng]).y })
       .attr("r", 1)
       .attr("class" , "circle")
       .style("fill", "#884EA0")//"69b3a2"
@@ -50,7 +28,7 @@ d3.csv("data/spot_info.csv", function(error, data) {
     .on('mouseover', function(d){ console.log(d.sna) });
 
   // If the user change the map (zoom or drag), I update circle position:
-  map.on("moveend", update)
+  map1.on("moveend", update)
 
   // When a button change, I run the update function
   d3.selectAll(".checkbox").on("change",update);
@@ -66,7 +44,7 @@ function mark_click(e) {
 
 // Function that update circle position if something change
 function update() {
-  d3.selectAll("circle")
-    .attr("cx", function(d){ return map.latLngToLayerPoint([d.lat, d.lng]).x })
-    .attr("cy", function(d){ return map.latLngToLayerPoint([d.lat, d.lng]).y })
+  svg_map1.selectAll("circle")
+    .attr("cx", function(d){ return map1.latLngToLayerPoint([d.lat, d.lng]).x })
+    .attr("cy", function(d){ return map1.latLngToLayerPoint([d.lat, d.lng]).y })
 }
