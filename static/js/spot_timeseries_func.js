@@ -191,5 +191,3 @@ d3.json("./dataset/spot_timeseries.json")
       //,  voronoi // if true, show Voronoi overlay      
     })    
   })
-
-        
