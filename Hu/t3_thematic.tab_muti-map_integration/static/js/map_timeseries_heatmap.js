@@ -68,7 +68,7 @@ function spot_timeseries_click(e) {
       //,  voronoi // if true, show Voronoi overlay 
       select_text: '#ts1'
     })
-    if (ts_count<4) {
+    if (ts_count<3) {
       ts_count += 1;
     } else {
       $('#ts1 svg').first().remove();
@@ -79,7 +79,7 @@ function spot_timeseries_click(e) {
 }
 d3v6.json("./dataset/spot_timeseries.json")
   .then(function(data){
-    chart = LineChart(data[140], {
+    chart = LineChart(data[136], {
       x: d => new Date(d.datetime),
       y: d => d.count,
       z: d => d.division,
