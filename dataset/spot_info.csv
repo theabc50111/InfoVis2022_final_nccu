@@ -14,7 +14,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0013,福德公園,50,信義區,25.03809,121.58367,大道路/福德街路口北西側,Xinyi Dist.,Fude Park,The N.W. side of Road Dadao & St. Fude.
 0014,榮星花園,32,中山區,25.06424,121.54037,五常街/龍江路口(西南側)(鄰近榮星公園(原榮星花園)),Zhongshan Dist.,Rongxing Park,The S.W. side of St.Wuchang & Road Longjiang.
 0016,松山家商,30,信義區,25.036084,121.579135,林口街/福德街(東南側),Xinyi Dist.,Songshan Vocational High School,The S.E. side of St. Linkou & St. Fude.
-0017,民生光復路口,34,松山區,25.05862,121.55514,光復北路/民生東路(西北側),Songshan Dist.,Minsheng & Guangfu Intersection,The N.W. side of Road Guangfu S & Road Minsheng E.
 0018,臺北市藝文推廣處,40,松山區,25.049408,121.55261,北寧路34號 對側(鄰近台北田徑場),Songshan Dist.,Taipei City Arts Promotion Office,"No.25, Sec. 3, Bade Rd."
 0019,象山公園,30,信義區,25.02863,121.56981,松仁路153巷17號對面(鄰近象山步道),Xinyi Dist.,Xiangshan Park,"No.17, Ln. 153, Songren Rd"
 0021,民生敦化路口,44,松山區,25.057985,121.548982,敦化民生路口公車站旁,Songshan Dist.,Minsheng & Dunhua Intersection,The side of bus stop- Dunhua Minsheng Intersection.
@@ -97,7 +96,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0098,羅斯福景隆街口,28,文山區,24.999378,121.540197,羅斯福路六段/景隆街交叉口(東南側),Wenshan Dist.,Roosevelt & Jinglong Intersection,"The intersection of Sec. 6, Roosevelt Rd. & Jinglong St. (the S.E. side)"
 0099,捷運雙連站(2號出口),22,大同區,25.058210,121.520590,萬全街16號(對面廣場),Datong Dist.,MRT Shuanglian Sta. (Exit 2),The N.E. side of Minsheng W. Rd. & Wanquan St.
 0100,金山市民路口,40,中正區,25.045753,121.530697,金山北路/市民大道三段(南側)(鄰近華山文化創意產業園區/光華數位新天地(光華商場)/三創生活園區),Zhongzheng Dist.,Jinshen & Civic Blvd. Intersection,"The S. side of Jinshan N. Rd. & Sec. 3, Civic Blvd."
-0101,華山文創園區,50,中正區,25.043668,121.528487,忠孝東路二段41號前(鄰近華山文化創意產業園區/光華數位新天地(光華商場)/三創生活園區),Zhongzheng Dist.,Huashan 1914‧Creative Park,"Front of No.41, Sec. 2, Zhongxiao E. Rd."
 0102,臺北市客家文化主題公園,32,中正區,25.02043,121.525322,師大路/汀州路交叉口(鄰近客家文化主題公園(原兒童交通博物館)),Zhongzheng Dist.,Taipei City Hakka Cultural Park,The intersection of Shida Rd. & Tingzhou Rd.
 0103,萬華車站,46,萬華區,25.033639,121.503028,艋舺大道83號(對側),Wanhua Dist.,Wanhua Rail Sta.,"No.83, Bangka Blvd. (oppsite)"
 0104,台北花木批發市場,32,文山區,25.004023,121.54074,萬盛街/興隆路一段(西北側),Wenshan Dist.,Taipei Pot Plant Auction,"The N.W. side of Wansheng St. Sec. 1, Xinglong Rd."
@@ -117,10 +115,8 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0118,大業大同街口,36,北投區,25.136929,121.499152,大業路/大同街口,Beitou Dist.,Daye & Datong Intersection,Daye Rd. & Datong St.  Intersection
 0119,捷運劍南路站(2號出口),68,中山區,25.08418,121.555116,敬業二路/植福路(東北側)(鄰近美麗華百樂園/劍潭古寺),Zhongshan Dist.,MRT Jiannan Rd. Sta.(Exit 2),Jingye 2nd Rd. & Zhifu Rd.
 0120,捷運龍山寺站(1號出口),46,萬華區,25.035479,121.50026,和平西路三段/和平西路三段109巷(西北側)(鄰近艋舺龍山寺/艋舺夜市(萬華夜市)),Wanhua Dist.,MRT Longshan Temple Sta. (Exit. 1),"Sec. 3, Heping W. Rd. & Ln. 109, Sec. 3, Heping W. Rd."
-0121,龍江南京路口,44,中山區,25.05298,121.540568,龍江路110號對面停車場,Zhongshan Dist.,Longjiang & Nanjing Intersection,"No.100, Longjiang Rd."
 0122,捷運港墘站(2號出口),32,內湖區,25.079666,121.57584,內湖路一段/港墘路(東南側),Neihu Dist.,MRT Gangqian Sta. (Exit 2),"Sec. 1, Neihu Rd./Gangqian Rd. (southeast)"
 0123,天母運動公園,44,士林區,25.116325,121.534136,忠誠路二段/忠誠路二段207巷(東南側),Shilin Dist.,Tienmu Sports Park,"Sec.2,Zhongcheng Rd./Ln.207,Sec.2,Zhongcheng Rd."
-0124,振華公園,36,北投區,25.115863,121.518163,振華街36號對面,Beitou Dist.,Zenhua Park,"No.36, Zhenhua St."
 0125,華西公園,30,萬華區,25.038609,121.498495,華西街/桂林路(東北側)(鄰近艋舺龍山寺/華西街夜市/艋舺青山宮/艋舺夜市(萬華夜市)),Wanhua Dist.,Huaxi Park,Huaxi St. & Guilin Rd.
 0126,敦化基隆路口,30,大安區,25.022073,121.548336,敦化南路二段/基隆路二段交叉口,Daan Dist.,Dunhua & Keelung Intersection,"Sec. 2, Dunhua S. Rd. & Sec. 2, Keelung Rd."
 0127,東湖國中,38,內湖區,25.073277,121.619521,康樂街/康樂街125巷(東南側),Neihu Dist.,Donghu Junior High School,"Kangle St./Ln. 125, Kangle St."
@@ -140,7 +136,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0141,文山行政中心,24,文山區,24.989902,121.569984,木柵路三段220號前,Wenshan Dist.,Wenshan Dist. Admin. Center,"No.220, Sec. 3, Muzha Rd."
 0142,捷運木柵站,32,文山區,24.997996,121.57444,木柵路四段82巷18號前(捷運橋樑下),Wenshan Dist.,MRT Muzha Sta.,"No.18, Ln. 82, Sec. 4, Muzha Rd."
 0143,捷運動物園站(2號出口),72,文山區,24.997659,121.578752,新光路二段28號前(鄰近台北市立動物園(木柵動物園)),Wenshan Dist.,MRT Taipei Zoo Sta.(Exit 2),"No.28, Sec. 2, Xinguang Rd."
-0144,國立政治大學,12,文山區,24.988363,121.576536,萬壽路16巷6號前(鄰近國立政治大學),Wenshan Dist.,Nat’l Chengchi U.,"No.6, Ln. 16, Wanshou Rd."
 0145,樹德公園,40,大同區,25.066688,121.516149,大龍街/大龍街85巷(東北側),Datong Dist.,Shude Park,"Dalong St. / Ln. 85, Dalong St."
 0146,捷運士林站(2號出口),38,士林區,25.092546,121.526556,中正路247巷/中山北路五段505巷(東南側),Shilin Dist.,MRT Shilin Sta.(Exit 2),"Ln. 247, Zhongzheng Rd. / Ln. 505, Sec. 5, Zhongshan N. Rd."
 0147,士林運動中心,32,士林區,25.089175,121.521814,承德路四段/大南路(東北側),Shilin Dist.,Shilin Sports Center,"Sec. 4, Chengde Rd./Danan Rd."
@@ -169,7 +164,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0171,文山運動中心,30,文山區,24.996842,121.559651,興隆路三段/興隆路三段192巷8弄,Wenshan Dist.,Taipei Wen Shan Sports Center,"Sec. 3, Xinglong Rd./Aly. 8, Ln. 192, Sec. 3, Xinglong Rd."
 0172,捷運南京三民站(1號出口),24,松山區,25.051562,121.562891 ,南京東路五段/三民路(西北側),Songshan Dist.,MRT Nanjing Sanmin Sta. (Exit 1),"Sec. 5, Nanjing E. Rd./Sanmin Rd."
 0173,捷運松江南京站(7號出口),38,中山區,25.052181 ,121.533211 ,松江路/南京東路二段(東北側)(鄰近四平陽光商圈),Zhongshan Dist.,MRT Songjiang Nanjing Sta. (Exit 7),"Sec. 2, Nanjing E. Rd./Sec. 2, Nanjing E. Rd."
-0174,捷運小巨蛋站(5號出口),42,松山區,25.051702 ,121.553057 ,南京東路四段/健康路(東北側)(鄰近台北田徑場),Songshan Dist.,MRT Taipei Arena Sta. (Exit 5),"Sec. 4, Nanjing E. Rd./Jiankang Rd."
 0175,捷運南京復興站(5號出口),34,松山區,25.051618 ,121.544847 ,南京東路三段/南京東路三段256巷(東南側),Songshan Dist.,MRT Nanjing Fuxing Sta. (Exit 5),"Sec. 3, Nanjing E. Rd./Ln. 256, Sec. 3, Nanjing E. Rd."
 0176,興安華城,58,中山區,25.055997 ,121.542318 ,興安街/遼寧街,Zhongshan Dist.,Xingan Huacheng Community,Xing’an St./Liaoning St.
 0177,葫蘆國小,40,士林區,25.082538 ,121.507495 ,環河北路三段/葫蘆街(東北側),Shilin Dist.,Hulu Elementary School,"Sec. 3, Huanhe N. Rd./Hulu St."
@@ -180,7 +174,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0182,捷運古亭站(2號出口),42,中正區,25.025300 ,121.523537 ,羅斯福路二段/羅斯福路二段174巷(捷運古亭站2號出口前),Zhongzheng Dist.,MRT Guting Sta. (Exit 2),"Sec. 2, Roosevelt Rd./Ln. 174, Sec. 2, Roosevelt Rd."
 0183,圓環站,20,大同區,25.053790,121.514179,南京西路/重慶北路一段(西南側)(鄰近寧夏夜市),Datong Dist.,Yuanhuan,"Nanjing W. Rd./Sec. 1, Chongqing N. Rd."
 0184,劍潭社區,42,中山區,25.084759 ,121.537892 ,通北街143號前,Zhongshan Dist.,Jiantan Community,"No.143, Tongbei St."
-0185,瑠公公園,30,大安區,25.042342 ,121.546050 ,大安路一段/大安路一段75巷(西側)(鄰近東區地下街),Daan Dist.,LiuGong Park,"Ln. 75, Sec. 1/Ln. 75, Sec. 1, Da’an Rd."
 0186,臺北市立大學,82,中正區,25.035414 ,121.514218 ,愛國西路/公園路(西北側)(鄰近台北市立教育大學),Zhongzheng Dist.,University of Taipei,Aiguo W. Rd./Gongyuan Rd.
 0187,仁愛延吉街口,24,大安區,25.037465 ,121.555769 ,仁愛路四段/延吉街(東南側)(鄰近大安親子館),Daan Dist.,Renai & Yanji Intersection,"Sec. 4, Ren’ai Rd./Yanji St."
 0188,社子國小,56,士林區,25.090293 ,121.501890 ,延平北路六段/社中街(社子國小對面跨提便道橋下),Shilin Dist.,Taipei Municipal Shezi Elementary School,"Sec. 6, Yanping N. Rd./Shezhong St."
@@ -221,7 +214,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0226,向陽南港路口,24,南港區,25.054365,121.594228,向陽路49號旁人行道(向陽南港路口),Nangang Dist.,Xiangyang & Nangang Intersection,"No.49, Xiangyang Rd."
 0227,麗山高中,40,內湖區,25.084244,121.576680,環山路二段131號對面人行道(麗山高中),Neihu Dist.,LiShan High School,"No.131, Sec. 2, Huanshan Rd. (opposite)"
 0228,捷運萬芳社區站,32,文山區,24.998811,121.56789,萬芳路60號西側廣場,Wenshan Dist.,MRT Wanfang Community Sta.,"No.60, Wanfang Rd. (west side)"
-0229,市民太原路口,34,大同區,25.049394,121.514611,鄭州路23號東側人行道(市民太原路口)(鄰近台北地下街/台北車站),Datong Dist.,Civic & Taiyuan Intersection,"No.23, Zhengzhou Rd. (east side)"
 0230,湖光國宅,22,內湖區,25.075366,121.580811,文德路22巷67號對面綠地,Neihu Dist.,Huguang Republic Housing,"No.67, Ln. 22, Wende Rd. (opposite)"
 0231,內政部營建署,30,松山區,25.047805,121.545022,八德路二段342號東側人行道(鄰近微風廣場/黑松世界),Songshan Dist.,Construction & Planning Agency,"No.342, Sec. 2, Bade Rd. (east side)"
 0232,中山天母路口,34,士林區,25.118843,121.529738,天母西路3-55號前人行道,Shilin Dist.,Zhongshan & Tianmu Intersection,"No.3-55, Tianmu W. Rd."
@@ -229,7 +221,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0234,永欣綠地,28,北投區,25.124162,121.526071,行義路1號對面停車場,Beitou Dist.,Yongxin Green Area,"No.1, Xingyi Rd. (opposite)"
 0235,市民東興路口,30,松山區,25.048460,121.565928,市民大道五段193號前方人行道(鄰近台北機廠),Songshan Dist.,Civic Blvd & Dongxing Intersection,"No.193, Sec. 5, Civic Blvd."
 0236,關渡自然公園,30,北投區,25.119292,121.469138,關渡路68號對面人行道,Beitou Dist.,Guandu Nature Park,"No.68, Guandu Rd. (opposite)"
-0237,文山第二行政中心,38,文山區,25.001149,121.551418,興隆路二段130巷30號對面人行道,Wenshan Dist.,Wenshan 2nd District Office,"No.30, Ln. 130, Sec. 2, Xinglong Rd. (opposite)"
 0238,瑞湖陽光街口,20,內湖區,25.073119,121.575965,瑞湖街101號對面人行道,Neihu Dist.,Ruihu & Yangguang Intersection,"No.101, Ruihu St. (opposite)"
 0239,新明路262巷口,18,內湖區,25.056641,121.583403,新明路/新明路262巷口(東側),Neihu Dist.,"Ln. 262., Xinming Rd. Intersection","Xinming Rd. / Ln. 262., Xinming Rd."
 0240,南京建國路口,30,中山區,25.052141,121.536802,南京東路二段/建國北路二段(北側)(鄰近袖珍博物館),Zhongshan Dist.,Nanjing Jianguo Intersection,"Sec. 2, Nanjing E. Rd./Sec. 2, Jianguo N. Rd."
@@ -261,7 +252,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0266,洲子一號公園,34,內湖區,25.080258,121.564806,基湖路32號南側公園,Neihu Dist.,Zhouzhi Park No.1,"No.32, Jihu Rd."
 0267,八德中坡路口,38,南港區,25.050620,121.580194,八德路四段869號前方人行道(鄰近饒河街夜市),Nangang Dist.,Bade & Zhongpo Intersection,"No.869, Sec. 4, Bade Rd."
 0268,南港高工,30,南港區,25.056655,121.607055,興中路29號前方人行道,Nangang Dist.,Nangang Vocational High School,"No.29, Xingzhong Rd."
-0269,三軍總醫院,22,內湖區,25.070723,121.590304,成功路二段/成功路二段323巷東北角人行道(鄰近防災科學教育館),Neihu Dist.,Tri-Service General Hospital,"Sec. 2, Chenggong Rd./Ln. 323, Sec. 2, Chenggong Rd.(Intersection)"
 0270,雨農國小,34,士林區,25.105429,121.529217,忠義街6號對面人行道(雨農國小)(鄰近芝山岩/芝山巖惠濟宮/芝山文化生態綠園),Shilin Dist.,Yu Nong Elementary School,"No.6, Zhongyi St.(oppsite)"
 0271,伊通長安路口,16,中山區,25.048334,121.534693,伊通街/長安東路二段(交叉口西南側路側)(鄰近袖珍博物館/樹火紀念紙博物館),Zhongshan Dist.,Yitong & Chang'an Intersection,"Yitong St./Sec. 2, Chang’an E. Rd. intersection(Southwest)"
 0272,忠順區民活動中心,32,文山區,24.984707,121.563125,忠順街二段22號前方人行道(忠順區民活動中心),Wenshan Dist.,Zhongshun Public Places,"No.22, Sec. 2, Zhongshun St."
@@ -322,7 +312,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0327,重慶南海路口,24,中正區,25.031580,121.514640,重慶南路二段45號前方(郵政博物館前)(鄰近郵政博物館/國立台灣藝術教育館),Zhongzheng Dist.,Chongqing & Nanhai Intersection,"No.45, Sec. 2, Chongqing S. Rd."
 0328,一江公園,20,中山區,25.053160,121.531460,一江街 / 松江路132巷口(西北側)(鄰近四平陽光商圈),Zhongshan Dist.,Yijiang Park,"Yijiang St. /  Ln. 132, Songjiang Rd. intersection"
 0329,樂群二明水路口,34,中山區,25.079830,121.552360,樂群二路 / 明水路口(東側),Zhongshan Dist.,Lequn 2nd & Mingshui Intersection,Lequn 2nd Rd. / Mingshui Rd. intersetion
-0330,迪化休閒運動公園,20,大同區,25.074910,121.511500,延平北路四段200號(南側),Datong Dist.,Dihua Park,"No.200, Sec. 4, Yanping N. Rd."
 0331,民族玉門街口,8,中山區,25.068590,121.519740,民族西路 / 民族西路31巷口(東北側)(鄰近大同大學/花博公園圓山園區/花博圓山公園區-爭艷館/中山親子館),Zhongshan Dist.,Minzu & Yumen Intersection,"Minsheng W. Rd. / Ln. 31, Minsheng W. Rd. intersection"
 0332,捷運中山站(2號出口),20,中山區,25.052250,121.521930,南京西路6號(前方)(鄰近台北之家(光點台北)),Zhongshan Dist.,MRT Zhongshan Sta. (Exit 2),"No.6, Nanjing W. Rd."
 0333,復盛公園,22,松山區,25.047428,121.561182,八德路四段106巷6弄2號(東側)(鄰近京華城/中保寶貝城(BabyBoss City)/台北機廠),Songshan Dist.,Fusheng Park,"No.2, Aly. 6, Ln. 106, Sec. 4, Bade Rd."
@@ -345,7 +334,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0350,復興南路二段128巷口,20,大安區,25.029040,121.543360,復興南路二段144-3號前方,Daan Dist.,"Ln. 128, Sec. 2, Fuxing S. Rd.","No.144-3, Sec. 2, Fuxing S. Rd."
 0351,中山青島路口,22,中正區,25.044690,121.519540,中山南路 / 青島東路口東北側,Zhongzheng Dist.,Zhongshan & Qingdao Intersection,Zhongshan S. Rd. / Qingdao E. Rd. intersection
 0352,民權迪化街口,12,大同區,25.063180,121.509440,迪化街一段351號(東北側)(鄰近延三夜市(大橋頭夜市)),Datong Dist.,Minquan & Dihua Intersection,"No.351, Sec. 1, Dihua St."
-0353,紀州庵,30,中正區,25.020880,121.520490,水源路 / 同安街口 (東側),Zhongzheng Dist.,Kishu An Forest of Literature,"No.107, Tong’an St."
 0354,建國濟南路口,28,大安區,25.040033,121.538084,建國南路一段/濟南路三段口(東南側),Daan Dist.,Jianguo & Jinan Intersection,"Sec. 1, Jianguo S. Rd. / Sec. 3, Jinan Rd. intersection"
 0355,福山公園,34,南港區,25.044780,121.617590,研究院路二段61巷15號(東側),Nangang Dist.,Fushan Park,"No.15, Ln. 61, Sec. 2, Academia Rd."
 0356,臺北市網球中心,16,內湖區,25.067400,121.597490,民權東路六段/民權東路六段210巷口(西南側),Neihu Dist.,Taipei Tennis Center,"Sec. 6, Minquan E. Rd. / Ln. 210, Sec. 6, Minquan E. Rd. intersection"
@@ -370,7 +358,6 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0375,銘傳大學,34,士林區,25.087714,121.526766,中山北路五段250號(銘傳大學對側)(鄰近銘傳大學/士林夜市),Shilin Dist.,Ming Chuan University,"No.250, Sec. 5, Zhongshan N. Rd."
 0376,民生建國路口,18,中山區,25.057778,121.536915,民生東路三段 / 建國北路二段口,Zhongshan Dist.,Minsheng & Jianguo Intersection,"Sec. 3, Minsheng E. Rd. / Sec. 2, Jianguo N. Rd."
 0377,南港路二段178巷口,30,南港區,25.053675,121.599693,南港路二段 / 南港路二段178巷口(北側),Nangang Dist.,"Ln. 178, Sec. 2, Nangang Rd.","No.146, Sec. 2, Nangang Rd."
-0378,陽光街321巷口,42,內湖區,25.073193,121.578691,陽光街321巷 / 陽光街口(南側),Neihu Dist.,"Ln. 321, Yangguang St.","Ln. 321, Yangguang St. / Yangguang St."
 0379,春光公園,38,信義區,25.042619,121.580762,忠孝東路五段721號(對側),Xinyi Dist.,Chunguang Park,"No.721, Sec. 5, Zhongxiao E. Rd."
 0380,塔悠疏散門,30,松山區,25.064713,121.567899,塔悠路 / 撫遠街389巷口(南側),Songshan Dist.,Tayou Evacuation Gate,"Tayou Rd. / Ln. 389, Fuyuan St."
 0381,民權東路六段15巷,22,內湖區,25.068530,121.578125,民權東路六段15巷35號,Neihu Dist.,"Ln. 15, Sec. 6, Minquan E. Rd.","No.35, Ln. 15, Sec. 6, Minquan E. Rd."
@@ -397,4 +384,3 @@ sno,sna,tot,sarea,lat,lng,ar,sareaen,snaen,aren
 0402,下灣公園,18,內湖區,25.065159,121.595611,民權東路六段206巷 / 民權東路六段190巷75弄口,Neihu Dist.,Siawan Park,"Ln. 206, Sec. 6, Minquan E. Rd. / Aly. 75, Ln. 190, Sec. 6, Minquan E. Rd."
 0403,捷運內湖站(1號出口),18,內湖區,25.083868,121.593929,成功路四段182巷 / 成功路四段182巷6弄口(東南側),Neihu Dist.,MRT Neihu Sta.1(Exit.1),"Ln. 182, Sec. 4, Chenggong Rd. / Aly. 6, Ln. 182, Sec. 4, Chenggong Rd."
 0404,民族延平路口,20,大同區,25.068653,121.510569,民族西路 310 號前方,Datong Dist.,Minzu & Yanping Intersection,"No.310, Minzu W. Rd."
-0405,捷運科技大樓站(台北教育大學),66,大安區,25.024685,121.544156,和平東路二段134號(前方),Daan Dist.,MRT Technology Building Station,"No. 134, Heping E. Rd. (front)"
