@@ -18,6 +18,20 @@ d3.json("./dataset/community.json")
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
   const loop = async () => {
     for (var k=0; k<24; k++){ 
+      //console.log(myLoopCheck);
+      //console.log(myLoopBreak);
+      if(myLoopBreak == 1){
+        myLoopBreak = 0;
+        break;
+      }
+
+      if(myLoopCheck <= 22){
+        myLoopCheck += 1;
+      }
+      else{
+        myLoopCheck = 0;
+      }
+
       document.getElementById('myHour').innerHTML = k.toString() + ":00";
       //var myHour = d3.select('#myHour')
       //  .text(k.toString() + ":00");
@@ -84,6 +98,20 @@ function community(myDate) {
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
     const loop = async () => {
       for (var k=0; k<24; k++){
+        //console.log(myLoopCheck);
+        //console.log(myLoopBreak);
+        if(myLoopBreak == 1){
+          myLoopBreak = 0;
+          break;
+        }
+
+        if(myLoopCheck <= 22){
+          myLoopCheck += 1;
+        }
+        else{
+          myLoopCheck = 0;
+        }
+        
         document.getElementById('myHour').innerHTML = k.toString() + ":00";
         //var myHour = d3.select('#myHour')
         //  .text(k.toString() + ":00"); 
@@ -111,8 +139,21 @@ function community(myDate) {
   })
 }
 
+var myLoopCheck = 0;
+var myLoopBreak = 0;
+var delayInMilliseconds = 1000; //1 second
+
 function onchange(e) {
   //console.log(e);
   selectValue = d3.select('select').property('value')
-  community(selectValue);  
+
+  if(myLoopCheck != 0){
+    myLoopBreak = 1;
+    myLoopCheck = 0;
+  }
+  
+  setTimeout(function() {
+    community(selectValue); 
+  }, delayInMilliseconds);
+  
 };
