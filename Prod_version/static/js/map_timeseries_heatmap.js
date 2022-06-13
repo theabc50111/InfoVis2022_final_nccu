@@ -248,7 +248,7 @@ function LineChart(data, {
 
   dot.append("text")
       .attr("font-family", "sans-serif")
-      .attr("font-size", 10)
+      .attr("font-size", 30)
       .attr("text-anchor", "middle")
       .attr("y", -8);
 
