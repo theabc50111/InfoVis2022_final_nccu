@@ -49,19 +49,6 @@ function community(myDate) {
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
     const loop = async () => {
       for (let k=0; k<24; k++){
-        // 如果 myLoopBreak == 1 則 loop break
-        if(myLoopBreak == 1){
-          myLoopBreak = 0;
-          break;
-        }
-        // 用 myLoopCheck 判斷 loop 是否正在進行，myLoopCheck = 0 表示執行完畢
-        if(myLoopCheck <= 22){
-          myLoopCheck += 1;
-        }
-        else{
-          myLoopCheck = 0;
-        }
-
         document.getElementById('myHour').innerHTML = k.toString() + ":00";
 
         let group1 = L.featureGroup();
@@ -90,25 +77,10 @@ function community(myDate) {
 }
 
 // 更新 --------------------------------------
-// 避免重複執行 community function 機制
-var myLoopCheck = 0;
-var myLoopBreak = 0;
-var delayInMilliseconds = 1000; //1 second
-
 function onchange(e) {
   $("#restart_button").prop("disabled", true);
   selectValue = d3.select('select').property('value')
-
-  // 如果上一回合 community function 尚未執行完畢，送出 break 訊號
-  if(myLoopCheck != 0){
-    myLoopBreak = 1;
-    myLoopCheck = 0;
-  }
-  
-  // 配合 break，延緩執行新的 community function
-  setTimeout(function() {
-    community(selectValue); 
-  }, delayInMilliseconds);  
+  community(selectValue);  
 };
 onchange() // 初始化
 
