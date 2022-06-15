@@ -27,7 +27,7 @@ $(document).ready(function(){
           $.getScript( "./static/js/map_timeseries_heatmap.js")
           break;
         case 2:
-          $.getScript( "./static/js/dataset_map2.js")
+          $.getScript( "./static/js/trips.js")
           break;
         case 3:
           $.getScript( "./static/js/community.js")
